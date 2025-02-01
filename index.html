@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>My website</title>
   </head>
-  <body class="sora-font ">
+  <body class="sora-font">
     <main class="w-full h-full bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
       <div class="container mx-auto lg:px-20">
         <!-- nav-point -->
@@ -107,19 +107,19 @@
 
         <!-- text and image section -->
         <div class="w-full mt-20">
-        <div class="animate-section">
-          <h1
-          class=" animate-text text-4xl font-semibold text-center leading-10 px-5 lg:text-6xl lg:px-32 lg:leading-snug"
-        >
-          Freshness
-          <span class="text-[#179800]"
-            >You Can <br />
-            Count</span
-          >
+          <div class="animate-section">
+            <h1
+              class="animate-text text-4xl font-semibold text-center leading-10 px-5 lg:text-6xl lg:px-32 lg:leading-snug"
+            >
+              Freshness
+              <span class="text-[#179800]"
+                >You Can <br />
+                Count</span
+              >
 
-          On, Prices You’ll Love!
-        </h1>
-        </div>
+              On, Prices You’ll Love!
+            </h1>
+          </div>
           <p
             class="text-[#111111] mx-auto text-center text-xl max-w-xl font-normal my-8"
           >
@@ -201,51 +201,111 @@
       </div>
     </section>
 
+<section class="container mx-auto my-36">
+ 
+  <header class="lg:flex pt-10 mb-20">
+    <!-- text section -->
+    <div>
+      <h1 class="text-5xl md:text-7xl font-bold">
+        <span class="text-bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"> Fresh and Healthy Veggies  </span><br>
+        Organic Market
+      </h1>
+      <br />
+
+      <p class="text-gray-500 w-3/4">
+        Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+        Your Taste Buds.
+      </p>
+      <br />
+      <button
+        class="text-[#EEE1FF] "
+      >
+        Explore More
+        <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i>
+      </button>
+    </div>
+
+    <!-- image section -->
+    <div class="relative">
+      <div>
+        <img class="w-full" src="c2-assets/vegetable-busket.png" alt="" />
+      </div>
+      <!-- card icon -->
+     
+    </div>
+  </header>
+</section>
+
     <!-- Popular Products section -->
-    <section class="w-full h-full bg-[#EFEBE3] mt-40">
-      <div class="container mx-auto lg:px-20">
-        <div class="flex flex-col justify-center items-start">
-          <h1 class="text-green-600 mt-32 text-2xl font-semibold lg:pl-0 lg:text-5xl">
+    <div class="w-full h-full bg-[#EFEBE3] mt-40">
+      <div class="container mx-auto lg:px-10">
+        <div
+          class="h-[810px] flex flex-col justify-center gap-y-6 lg:gap-y-14"
+        >
+          <h1
+            class="text-green-600 text-4xl font-semibold lg:text-5xl text-left pl-5 lg:pl-0"
+          >
             Popular Products
           </h1>
-
           <div
-            class="flex flex-col gap-y-4 items-center justify-center lg:flex-row mt-24 lg:gap-x-6"
+            class="flex flex-col gap-y-4 items-center justify-center lg:flex-row lg:gap-x-20"
           >
-            <!-- Buy now section -->
+            <!-- Discount Card -->
             <div
-              class="w-[400px] h-[461px] lg:w-[600px] lg:h-[400px] bg-gradient-to-br from-[#53db3a] relative to-[#def8d9] rounded-lg overflow-hidden -mt-20 "
+              class="w-[400px] h-[339px] lg:w-[700px] lg:h-[440px] relative bg-gradient-to-br from-[#53db3a] to-[#def8d9] rounded-lg overflow-hidden"
             >
-              <div class="mt-20 px-7 gap-y-2">
-                <h1 class="text-3xl font-sans font-bold text-white">30% off</h1>
-
-                <p class="text-base opacity-60 mt-12">
-                  Discover a world of treats, toys, and <br />
-                  essentials handpicked for
+              <div
+                class="flex flex-col justify-start items-start px-7 pt-8 gap-y-2"
+              >
+                <h1 class="text-3xl font-sans font-bold text-white">
+                  30% off
+                </h1>
+                <p class="text-base opacity-65">
+                  Discover a world of treats, toys, and essentials handpicked
+                  for
                 </p>
-
                 <button
-                  class="btn bg-white font-semibold text-black text-lg w-36 mt-10 rounded-lg"
+                  class="btn shadow-none bg-white font-normal text-black text-lg w-36 rounded-lg"
                 >
                   Buy Now
                 </button>
               </div>
               <img
-                class="absolute bottom-0 right-5"
-                src="c2-assets/vegetable-offer.png"
+                class="absolute bottom-0 right-0 h-[240px] lg:h-[290px]"
+                src="./c2-assets/vegetable-offer.png"
                 alt=""
               />
             </div>
-
-            <div class=" w-full flex mt-5 flex-wrap justify-center gap-4 lg:justify-start lg:items-start lg:gap-3 mb-24">
-              <div class=" w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg ">
-                <div class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]">
-                  <img src="c2-assets/onion.png" alt="" />
+            <!-- product Card -->
+            <div
+              class="w-full flex flex-wrap justify-center gap-4 lg:justify-start lg:items-start lg:gap-x-8 lg:gap-y-7"
+            >
+              <div
+                class="w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg"
+              >
+                <div
+                  class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]"
+                >
+                  <img
+                    src="./c2-assets/onion.png"
+                    alt=""
+                    class="w-11 h-11 lg:w-20 lg:h-20"
+                  />
                 </div>
-
-                <div>
-                  <i class="fa-solid fa-star text-[#FFC107] text-xl lg:text-2xl"> <span class="text-base text-black">4.5</span></i>
-                  <h3 class="text-base lg:text-xl lg:font-semibold">Onion 1 KG</h3>
+                <div
+                  class="flex flex-col justify-start items-start lg:gap-y-1"
+                >
+                  <h4 class="flex items-center gap-x-1">
+                    <span
+                      ><i
+                        class="ri-star-s-fill text-orange-400 text-xl lg:text-2xl"
+                      ></i
+                    ></span>
+                    <span class="text-base">4.5</span>
+                  </h4>
+                  <h3 class="text-base lg:text-xl lg:font-semibold">
+                    Onion 1 KG
+                  </h3>
                   <p
                     class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
                   >
@@ -253,15 +313,32 @@
                   </p>
                 </div>
               </div>
-
-              <div class=" w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg ">
-                <div class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]">
-                  <img src="c2-assets/onion.png" alt="" />
+              <div
+                class="w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg"
+              >
+                <div
+                  class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]"
+                >
+                  <img
+                    src="./c2-assets/onion.png"
+                    alt=""
+                    class="w-11 h-11 lg:w-20 lg:h-20"
+                  />
                 </div>
-
-                <div>
-                  <i class="fa-solid fa-star text-[#FFC107] text-xl lg:text-2xl"> <span class="text-base text-black">4.5</span></i>
-                  <h3 class="text-base lg:text-xl lg:font-semibold">Onion 1 KG</h3>
+                <div
+                  class="flex flex-col justify-start items-start lg:gap-y-1"
+                >
+                  <h4 class="flex items-center gap-x-1">
+                    <span
+                      ><i
+                        class="ri-star-s-fill text-orange-400 text-xl lg:text-2xl"
+                      ></i
+                    ></span>
+                    <span class="text-base">4.5</span>
+                  </h4>
+                  <h3 class="text-base lg:text-xl lg:font-semibold">
+                    Onion 1 KG
+                  </h3>
                   <p
                     class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
                   >
@@ -269,15 +346,32 @@
                   </p>
                 </div>
               </div>
-
-              <div class=" w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg ">
-                <div class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]">
-                  <img src="c2-assets/onion.png" alt="" />
+              <div
+                class="w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg"
+              >
+                <div
+                  class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]"
+                >
+                  <img
+                    src="./c2-assets/onion.png"
+                    alt=""
+                    class="w-11 h-11 lg:w-20 lg:h-20"
+                  />
                 </div>
-
-                <div>
-                  <i class="fa-solid fa-star text-[#FFC107] text-xl lg:text-2xl"> <span class="text-base text-black">4.5</span></i>
-                  <h3 class="text-base lg:text-xl lg:font-semibold">Onion 1 KG</h3>
+                <div
+                  class="flex flex-col justify-start items-start lg:gap-y-1"
+                >
+                  <h4 class="flex items-center gap-x-1">
+                    <span
+                      ><i
+                        class="ri-star-s-fill text-orange-400 text-xl lg:text-2xl"
+                      ></i
+                    ></span>
+                    <span class="text-base">4.5</span>
+                  </h4>
+                  <h3 class="text-base lg:text-xl lg:font-semibold">
+                    Onion 1 KG
+                  </h3>
                   <p
                     class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
                   >
@@ -285,15 +379,32 @@
                   </p>
                 </div>
               </div>
-
-              <div class=" w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg ">
-                <div class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]">
-                  <img src="c2-assets/onion.png" alt="" />
+              <div
+                class="w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg"
+              >
+                <div
+                  class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]"
+                >
+                  <img
+                    src="./c2-assets/onion.png"
+                    alt=""
+                    class="w-11 h-11 lg:w-20 lg:h-20"
+                  />
                 </div>
-
-                <div>
-                  <i class="fa-solid fa-star text-[#FFC107] text-xl lg:text-2xl"> <span class="text-base text-black">4.5</span></i>
-                  <h3 class="text-base lg:text-xl lg:font-semibold">Onion 1 KG</h3>
+                <div
+                  class="flex flex-col justify-start items-start lg:gap-y-1"
+                >
+                  <h4 class="flex items-center gap-x-1">
+                    <span
+                      ><i
+                        class="ri-star-s-fill text-orange-400 text-xl lg:text-2xl"
+                      ></i
+                    ></span>
+                    <span class="text-base">4.5</span>
+                  </h4>
+                  <h3 class="text-base lg:text-xl lg:font-semibold">
+                    Onion 1 KG
+                  </h3>
                   <p
                     class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
                   >
@@ -301,15 +412,32 @@
                   </p>
                 </div>
               </div>
-
-              <div class=" w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg ">
-                <div class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]">
-                  <img src="c2-assets/onion.png" alt="" />
+              <div
+                class="w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg"
+              >
+                <div
+                  class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]"
+                >
+                  <img
+                    src="./c2-assets/onion.png"
+                    alt=""
+                    class="w-11 h-11 lg:w-20 lg:h-20"
+                  />
                 </div>
-
-                <div>
-                  <i class="fa-solid fa-star text-[#FFC107] text-xl lg:text-2xl"> <span class="text-base text-black">4.5</span></i>
-                  <h3 class="text-base lg:text-xl lg:font-semibold">Onion 1 KG</h3>
+                <div
+                  class="flex flex-col justify-start items-start lg:gap-y-1"
+                >
+                  <h4 class="flex items-center gap-x-1">
+                    <span
+                      ><i
+                        class="ri-star-s-fill text-orange-400 text-xl lg:text-2xl"
+                      ></i
+                    ></span>
+                    <span class="text-base">4.5</span>
+                  </h4>
+                  <h3 class="text-base lg:text-xl lg:font-semibold">
+                    Onion 1 KG
+                  </h3>
                   <p
                     class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
                   >
@@ -317,47 +445,32 @@
                   </p>
                 </div>
               </div>
-
-              <div class=" w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg ">
-                <div class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]">
-                  <img src="c2-assets/onion.png" alt="" />
+              <div
+                class="w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg"
+              >
+                <div
+                  class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]"
+                >
+                  <img
+                    src="./c2-assets/onion.png"
+                    alt=""
+                    class="w-11 h-11 lg:w-20 lg:h-20"
+                  />
                 </div>
-
-                <div>
-                  <i class="fa-solid fa-star text-[#FFC107] text-xl lg:text-2xl"> <span class="text-base text-black">4.5</span></i>
-                  <h3 class="text-base lg:text-xl lg:font-semibold">Onion 1 KG</h3>
-                  <p
-                    class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
-                  >
-                    $39.99
-                  </p>
-                </div>    
-              </div>
-
-              <div class=" w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg ">
-                <div class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]">
-                  <img src="c2-assets/onion.png" alt="" />
-                </div>
-
-                <div>
-                  <i class="fa-solid fa-star text-[#FFC107] text-xl lg:text-2xl"> <span class="text-base text-black">4.5</span></i>
-                  <h3 class="text-base lg:text-xl lg:font-semibold">Onion 1 KG</h3>
-                  <p
-                    class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
-                  >
-                    $39.99
-                  </p>
-                </div>
-              </div>
-
-              <div class=" w-48 h-20 flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg ">
-                <div class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]">
-                  <img src="c2-assets/onion.png" alt="" />
-                </div>
-
-                <div>
-                  <i class="fa-solid fa-star text-[#FFC107] text-xl lg:text-2xl"> <span class="text-base text-black">4.5</span></i>
-                  <h3 class="text-base lg:text-xl lg:font-semibold">Onion 1 KG</h3>
+                <div
+                  class="flex flex-col justify-start items-start lg:gap-y-1"
+                >
+                  <h4 class="flex items-center gap-x-1">
+                    <span
+                      ><i
+                        class="ri-star-s-fill text-orange-400 text-xl lg:text-2xl"
+                      ></i
+                    ></span>
+                    <span class="text-base">4.5</span>
+                  </h4>
+                  <h3 class="text-base lg:text-xl lg:font-semibold">
+                    Onion 1 KG
+                  </h3>
                   <p
                     class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
                   >
@@ -365,15 +478,32 @@
                   </p>
                 </div>
               </div>
-
-              <div class=" w-48 h-20 lg:flex  lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg hidden ">
-                <div class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]">
-                  <img src="c2-assets/onion.png" alt="" />
+              <div
+                class="w-48 h-20 hidden lg:flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg"
+              >
+                <div
+                  class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]"
+                >
+                  <img
+                    src="./c2-assets/onion.png"
+                    alt=""
+                    class="w-11 h-11 lg:w-20 lg:h-20"
+                  />
                 </div>
-
-                <div>
-                  <i class="fa-solid fa-star text-[#FFC107] text-xl lg:text-2xl"> <span class="text-base text-black">4.5</span></i>
-                  <h3 class="text-base lg:text-xl lg:font-semibold">Onion 1 KG</h3>
+                <div
+                  class="flex flex-col justify-start items-start lg:gap-y-1"
+                >
+                  <h4 class="flex items-center gap-x-1">
+                    <span
+                      ><i
+                        class="ri-star-s-fill text-orange-400 text-xl lg:text-2xl"
+                      ></i
+                    ></span>
+                    <span class="text-base">4.5</span>
+                  </h4>
+                  <h3 class="text-base lg:text-xl lg:font-semibold">
+                    Onion 1 KG
+                  </h3>
                   <p
                     class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
                   >
@@ -381,135 +511,227 @@
                   </p>
                 </div>
               </div>
-
+              <div
+                class="w-48 h-20 hidden lg:flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg"
+              >
+                <div
+                  class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]"
+                >
+                  <img
+                    src="./c2-assets/onion.png"
+                    alt=""
+                    class="w-11 h-11 lg:w-20 lg:h-20"
+                  />
+                </div>
+                <div
+                  class="flex flex-col justify-start items-start lg:gap-y-1"
+                >
+                  <h4 class="flex items-center gap-x-1">
+                    <span
+                      ><i
+                        class="ri-star-s-fill text-orange-400 text-xl lg:text-2xl"
+                      ></i
+                    ></span>
+                    <span class="text-base">4.5</span>
+                  </h4>
+                  <h3 class="text-base lg:text-xl lg:font-semibold">
+                    Onion 1 KG
+                  </h3>
+                  <p
+                    class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
+                  >
+                    $39.99
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-48 h-20 lg:flex lg:w-72 lg:h-32 p-3 justify-between lg:justify-start lg:pl-5 lg:gap-x-4 items-center bg-white rounded-lg hidden"
+              >
+                <div
+                  class="w-16 h-16 lg:w-24 lg:h-24 flex justify-center items-end rounded-md bg-[#EFEBE3]"
+                >
+                  <img
+                    src="./c2-assets/onion.png"
+                    alt=""
+                    class="w-11 h-11 lg:w-20 lg:h-20"
+                  />
+                </div>
+                <div
+                  class="flex flex-col justify-start items-start lg:gap-y-1"
+                >
+                  <h4 class="flex items-center gap-x-1">
+                    <span
+                      ><i
+                        class="ri-star-s-fill text-orange-400 text-xl lg:text-2xl"
+                      ></i
+                    ></span>
+                    <span class="text-base">4.5</span>
+                  </h4>
+                  <h3 class="text-base lg:text-xl lg:font-semibold">
+                    Onion 1 KG
+                  </h3>
+                  <p
+                    class="text-xs font-semibold leading-tight lg:text-base lg:font-medium"
+                  >
+                    $39.99
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <section
+      class="container flex flex-col items-center mx-auto lg:px-10 mt-20 mb-90"
+    >
+      <div class="lg:w-full flex flex-col justify-start gap-y-8 lg:gap-y-10">
+        <h1 class="text-2xl text-green-600 font-semibold lg:text-4xl">
+          Arrival & Offers
+        </h1>
+        <div class="flex flex-col gap-y-4 lg:flex-row lg:gap-x-4">
+          <div
+            class="w-96 h-48 bg-green-900 flex items-center justify-between rounded-xl overflow-x-hidden lg:w-3/5 lg:h-full lg:p-6"
+          >
+            <div
+              class="flex flex-col gap-y-4 justify-start pl-5 lg:gap-y-6 lg:pl-0"
+            >
+              <img
+                src="./c2-assets/dawat-logo.png"
+                class="w-28 h-10 lg:w-64 lg:h-full"
+                alt=""
+              />
+              <button
+                class="btn bg-[#63B76D] border-none shadow-none text-white h-12 rounded-xl font-normal lg:text-xl"
+              >
+                Cook Exotic Dishes
+              </button>
+              <h2
+                class="text-white text-xl font-bold lg:text-[40px] lg:leading-snug"
+              >
+                UP to 20% OFF
+              </h2>
+            </div>
+            <div class="">
+              <img
+                src="./c2-assets/dawat-mock-up.png"
+                class="h-36 w-40 lg:h-80 lg:w-full"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="w-96 h-48 bg-blue-900 flex items-center justify-between rounded-xl overflow-x-hidden lg:w-2/5 lg:h-full lg:p-6"
+          >
+            <div
+              class="flex flex-col gap-y-4 justify-start pl-5 lg:gap-y-6 lg:pl-0"
+            >
+              <img
+                src="./c2-assets/india-gate-logo.png"
+                class="w-28 h-10 lg:w-32 lg:h-32"
+                alt=""
+              />
+              <button
+                class="btn bg-[#2A4D97] border-none shadow-none text-white h-12 rounded-xl font-normal lg:text-xl"
+              >
+                World’s No.1 Rice
+              </button>
+              <h2
+                class="text-white text-xl font-bold lg:text-[40px] lg:leading-snug"
+              >
+                UP to 40% OFF
+              </h2>
+            </div>
+            <div class="">
+              <img
+                src="./c2-assets/india-gate-mock-up.png"
+                class="h-36 w-40 lg:h-80 lg:w-full"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section
-    class="container flex flex-col items-center mx-auto lg:px-10 mt-20 mb-60"
-  >
-    <div class="lg:w-full flex flex-col justify-start gap-y-8 lg:gap-y-10">
-      <h1 class="text-2xl text-green-600 font-semibold lg:text-4xl">
-        Arrival & Offers
-      </h1>
-      <div class="flex flex-col gap-y-4 lg:flex-row lg:gap-x-4">
+    <section class="w-full h-full bg-[#179800]">
+      <footer
+        class="container mx-auto w-[390px] h-[7 60px] lg:w-[1600px] lg:h-[660px] relative items-end footer sm:footer-vertical lg:footer-horizontal text-base-content p-10"
+      >
         <div
-          class="w-96 h-48 bg-green-900 flex items-center justify-between rounded-xl overflow-x-hidden lg:w-3/5 lg:h-full lg:p-6"
+          class="absolute sm:w-[360px] sm:h-[470px] rounded-lg bg-[#EFEBE3] flex flex-col gap-y-3 justify-center items-center -top-60 py-8 lg:w-4/4 lg:flex-row lg:justify-around"
         >
+          <img
+            src="./c2-assets/vegetable-busket.png"
+            class="w-60 lg:min-w-min"
+            alt=""
+          />
           <div
-            class="flex flex-col gap-y-4 justify-start pl-5 lg:gap-y-6 lg:pl-0"
+            class="flex flex-col justify-center items-center gap-y-3 lg:items-start lg:gap-y-5"
           >
-            <img
-              src="./c2-assets/dawat-logo.png"
-              class="w-28 h-10 lg:w-64 lg:h-full"
-              alt=""
+            <h2
+              class="text-green-600 text-[22px] font-semibold lg:text-4xl lg:text-black"
+            >
+              Get Grocery News!
+            </h2>
+            <p
+              class="font-normal text-base px-12 text-center lg:px-0 lg:text-xl"
+            >
+              Exclusive training tips, ticks, product deals and more.
+            </p>
+            <input
+              type="text"
+              placeholder="Enter Email..."
+              class="input input-md border-none lg:input-lg lg:w-96"
             />
             <button
-              class="btn bg-[#63B76D] border-none shadow-none text-white h-12 rounded-xl font-normal lg:text-xl"
+              class="btn rounded-lg w-40 text-xl h-12 bg-[#179800] text-white"
             >
-              Cook Exotic Dishes
+              Subscribe
             </button>
-            <h2
-              class="text-white text-xl font-bold lg:text-[40px] lg:leading-snug"
-            >
-              UP to 20% OFF
-            </h2>
-          </div>
-          <div class="">
-            <img
-              src="./c2-assets/dawat-mock-up.png"
-              class="h-36 w-40 lg:h-80 lg:w-full"
-              alt=""
-            />
           </div>
         </div>
-        <div
-          class="w-96 h-48 bg-blue-900 flex items-center justify-between rounded-xl overflow-x-hidden lg:w-2/5 lg:h-full lg:p-6"
-        >
-          <div
-            class="flex flex-col gap-y-4 justify-start pl-5 lg:gap-y-6 lg:pl-0"
+
+        <nav class="lg:mb-32 mt-52 gap-y-4">
+          <img src="c2-assets/logo-footer.png" alt="" />
+          <p class="text-[#FFFFFFB3] text-xl font-normal">
+            Discover a world of treats, toys, and <br />
+            essentials handpicked for your furry <br />
+            friends
+          </p>
+        </nav>
+        <nav class="lg:mb-32 gap-y-5">
+          <a class="link link-hover text-[#EFEBE3] text-xl font-normal"
+            >Products</a
           >
-            <img
-              src="./c2-assets/india-gate-logo.png"
-              class="w-28 h-10 lg:w-32 lg:h-32"
-              alt=""
-            />
-            <button
-              class="btn bg-[#2A4D97] border-none shadow-none text-white h-12 rounded-xl font-normal lg:text-xl"
-            >
-              World’s No.1 Rice
-            </button>
-            <h2
-              class="text-white text-xl font-bold lg:text-[40px] lg:leading-snug"
-            >
-              UP to 40% OFF
-            </h2>
+          <a class="link link-hover text-[#EFEBE3] text-xl font-normal"
+            >Services</a
+          >
+          <a class="link link-hover text-[#EFEBE3] text-xl font-normal"
+            >Contact Us</a
+          >
+        </nav>
+        <nav class="lg:mb-32">
+          <h6 class="footer-title text-base text-[#ffffff]">Follow Us</h6>
+          <div class="grid grid-flow-col gap-x-7">
+            <a class="text-[#EFEBE3] text-3xl">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a class="text-[#EFEBE3] text-3xl">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a class="text-[#EFEBE3] text-3xl">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="text-[#EFEBE3] text-3xl">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
           </div>
-          <div class="">
-            <img
-              src="./c2-assets/india-gate-mock-up.png"
-              class="h-36 w-40 lg:h-80 lg:w-full"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> 
-
- 
-
- <section class="w-full h-full   bg-[#179800]  " >
-  <footer class=" container mx-auto footer w-[1600px] h-[660px]  items-end sm:footer-vertical lg:footer-horizontal  text-base-content p-10 ">
-
-    <div>
-      
-
-    </div>
-
-    
-    
-      <nav class= "lg:mb-32  gap-y-4 ">
-        <img src="c2-assets/logo-footer.png" alt="">
-        <p class="text-[#FFFFFFB3] text-xl font-normal"> Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
-    
-      </nav>
-      <nav class="lg:mb-32 gap-y-5">
-       
-        <a class="link link-hover text-[#EFEBE3] text-xl font-normal">Products</a>
-        <a class="link link-hover text-[#EFEBE3] text-xl font-normal ">Services</a>
-        <a class="link link-hover text-[#EFEBE3] text-xl font-normal ">Contact Us</a>
-      </nav>
-      <nav class="lg:mb-32" >
-        <h6 class="footer-title text-base text-[#ffffff] ">Follow Us</h6>
-        <div class="grid grid-flow-col gap-x-7">
-  
-          <a class="text-[#EFEBE3] text-3xl ">
-            <i class="fa-brands fa-facebook  "></i>
-          </a>
-  
-          <a class="text-[#EFEBE3] text-3xl ">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-  
-          <a class="text-[#EFEBE3] text-3xl ">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a class="text-[#EFEBE3] text-3xl "> 
-            <i class="fa-brands fa-youtube"></i>
-          </a>
-        </div>
-      </nav>
-
-    
-   
-  </footer>
- </section>
-
-    
+        </nav>
+      </footer>
+    </section>
   </body>
 </html>
