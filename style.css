@@ -4,5 +4,29 @@
   
   }
 
- 
+  .food-item{ 
+    
+    height: auto;
+    border: 15px solid crimson;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius:50% ;}
+   
+    @keyframes taj{
+   0%{ border-color:dodgerblue  ;}
+   25%{ border-color: forestgreen;}
+   50%{ border-color: darkorange;}
+   75%{ border-color:darkslategrey ;}
+   100%{ border-color: rgb(245, 148, 116);}
+    }
+   
+    .food-item:hover{animation-name: taj;
+       animation-duration: 3s;
+       animation-delay: 1s;
+   animation-fill-mode:forwards ;
+   animation-iteration-count: infinite;
+   box-shadow: 2px 10px 27px 20px skyblue;
+   
+   }
  
